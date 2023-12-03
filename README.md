@@ -45,7 +45,7 @@ services:
 ##For Customize
 ```
 git clone https://github.com/engtro/nextcloud-custom.git
-cd nextcloud-docker
+cd nextcloud-custom
 ```
 **Edit Dockerfile as your needs**
 ```

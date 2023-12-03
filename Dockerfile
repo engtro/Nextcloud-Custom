@@ -68,7 +68,7 @@ RUN mkdir -p \
 
 COPY supervisord.conf /
 
-RUN pecl install inotify-tools
+RUN pecl install inotify
 RUN echo "extension="inotify.so"" > /usr/local/etc/php/conf.d/00_inotify.ini
 RUN pecl install imagick
 
