@@ -49,5 +49,5 @@ cd nextcloud-custom
 ```
 **Edit Dockerfile as your needs**
 ```
-docker build -t rfbeskow/nextcloud .
+docker build -t rfbeskow/nextcloud-custom .
 ```
