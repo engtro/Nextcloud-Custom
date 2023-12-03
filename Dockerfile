@@ -70,7 +70,6 @@ COPY supervisord.conf /
 
 RUN pecl install inotify
 RUN echo "extension="inotify.so"" > /usr/local/etc/php/conf.d/00_inotify.ini
-RUN pecl install imagick
 
 ENV PHP_MEMORY_LIMIT 1G
 ENV PHP_UPLOAD_LIMIT 10G
